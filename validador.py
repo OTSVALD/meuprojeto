@@ -72,9 +72,9 @@ def main():
     valor_total_validas = 0.0
     todos_os_erros = []
 
-    print("=" * 60)
+    print("=" * 80)
     print("INÍCIO DA VALIDAÇÃO DE VENDAS")
-    print("=" * 60)
+    print("=" * 80)
 
     for venda in vendas:
         erros_da_venda = validar_venda(venda)
